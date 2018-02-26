@@ -1,0 +1,14 @@
+@import './base.css';
+@import './btn.css';
+html {
+  & > body {
+    & h1 {
+      color: red;
+    }
+    & .img{
+      background: url('~/static/i/a.png');
+      width:130px;
+      height:61px;
+    }
+  }
+}
